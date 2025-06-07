@@ -145,7 +145,7 @@ public class Trickshot extends View {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN -> {
+            case MotionEvent.ACTION_DOWN: {
                 xOnTouch = event.getX();
                 yOnTouch = event.getY();
                 trackStatus = false;
@@ -251,7 +251,7 @@ public class Trickshot extends View {
                 }
                 invalidate();
             }
-            case MotionEvent.ACTION_MOVE -> {
+            case MotionEvent.ACTION_MOVE: {
                 xOnMotion = event.getX();
                 yOnMotion = event.getY();
                 if (circle == 1) {
