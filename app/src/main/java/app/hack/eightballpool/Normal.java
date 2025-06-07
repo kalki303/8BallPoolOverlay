@@ -68,7 +68,7 @@ public class Normal extends View {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN -> {
+            case MotionEvent.ACTION_DOWN: {
                 xOnTouch = event.getX();
                 yOnTouch = event.getY();
                 trackStatus = xOnTouch > (xCircle - radius)
@@ -76,7 +76,7 @@ public class Normal extends View {
                         && yOnTouch > (yCircle - radius)
                         && yOnTouch < (yCircle + radius);
             }
-            case MotionEvent.ACTION_MOVE -> {
+            case MotionEvent.ACTION_MOVE: {
                 xOnMotion = event.getX();
                 yOnMotion = event.getY();
                 xCircle = xOnMotion;
