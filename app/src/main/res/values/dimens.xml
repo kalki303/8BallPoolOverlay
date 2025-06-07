@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        My device: Xiaomi Mi A1
+        My android version: 9
+
+        Use the Landscape mode
+        In Landscape mode, the values X and Y are inverted
+
+        Portrait:
+        Device Width: X => 1080
+        Device Height: Y => 1920
+
+        Landscape:
+        Device Width: X => 1920
+        Device Height: Y => 1080
+
+        Find the dimensions of your device in MainActivity ( DEBUG )
+
+        Add the android:background="@color/colorAlphaWhite" in layout ( RelativeLayout ) to help the adjusts
+    -->
+
+<!-- Board -->
+<dimen name="boardWidth" tools:ignore="PxUsage">1080px</dimen> <!-- 1620 * 0.666 -->
+<dimen name="boardHeight" tools:ignore="PxUsage">747px</dimen> <!-- 897 * 0.833 -->
+<dimen name="boardMarginBottom" tools:ignore="PxUsage">0.0082px</dimen> <!-- 0.0099 * 0.833 -->
+
+<!-- Canvas -->
+<dimen name="canvasWidth" tools:ignore="PxUsage">971px</dimen> <!-- 1458 * 0.666 -->
+<dimen name="canvasHeight" tools:ignore="PxUsage">609px</dimen> <!-- 731 * 0.833 -->
+<dimen name="canvasMarginTop" tools:ignore="PxUsage">54px</dimen> <!-- 82 * 0.666 -->
+
+<!-- Buttons -->
+<dimen name="buttonWidth" tools:ignore="PxUsage">173px</dimen> <!-- 260 * 0.666 -->
+<dimen name="buttonHeight" tools:ignore="PxUsage">62px</dimen> <!-- 75 * 0.833 -->
+<dimen name="buttonMargin" tools:ignore="PxUsage">113px</dimen> <!-- 170 * 0.666 -->
+
+</resources>
